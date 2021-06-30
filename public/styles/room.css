@@ -14,21 +14,21 @@
     display: flex;
 }
 
-#room header .buttons .button:nth-child(1) {
+#room header .buttons .button:nth-child(2) {
     margin-right: .8rem;
     padding: 1.3rem 1.6rem;
 }
-#room header .buttons .button:nth-child(1) img {
+#room header .buttons .button:nth-child(2) img {
     margin-left: 1.16rem;
     width: 2rem;
     height: 2rem;
 }
 
-#room header .buttons .button:nth-child(2) {
+#room header .buttons .button:nth-child(3) {
     padding: 1.3rem 3.2rem;
 }
 
-#room header .buttons .button:nth-child(2) img {
+#room header .buttons .button:nth-child(3) img {
     width: 2rem;
     height: 2rem ;
 }

@@ -36,3 +36,14 @@ function handleClick(event, check = true) {
     
     modal.open() 
 }
+
+const copyButton = document.querySelector('[data-id]')
+copyButton.addEventListener('click', copyRoomId)
+
+function copyRoomId(event) {
+    const roomId = document.querySelector('.sr-only')
+    const range = document.createRange()
+    range.selectNode(roomId)
+    window.getSelection(roomId).addRange(range)
+    document.execCommand('copy')
+}
